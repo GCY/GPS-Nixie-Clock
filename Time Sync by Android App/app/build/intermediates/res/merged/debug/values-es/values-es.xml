@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_color_preference">
+        <item>Texto negro, fondo blanco</item>
+        <item>Texto blanco, fondo negro</item>
+        <item>Texto blanco, fondo blanco</item>  
+    </string-array>
+    <string-array name="entries_controlkey_preference">
+        <item>Jog ball</item>
+        <item>\@</item>
+        <item>Alt izquierda</item>
+        <item>Alt derecha</item>
+        <item>Bajar volumen</item>
+        <item>Subir volumen</item>
+    </string-array>
+    <string-array name="entries_end_of_line_0A_preference">
+        <item>No cambiar</item>
+        <item>Eliminar caracter</item>
+        <item>Reemplazar por CR (0x0D)</item>
+        <item>Reemplazar por CRLF (0x0D0A)</item>
+    </string-array>
+    <string-array name="entries_end_of_line_0D_preference">
+        <item>No cambiar</item>
+        <item>Eliminar caracter</item>
+        <item>Reemplazar por LF (0x0A)</item>
+        <item>Reemplazar por CRLF (0x0D0A)</item>
+    </string-array>
+    <string-array name="entries_fontsize_preference">
+        <item>6 pt</item>
+        <item>7 pt</item>
+        <item>8 pt</item>
+        <item>9 pt</item>
+        <item>10 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>20 pt</item>
+    </string-array>
+    <string-array name="entries_screenorientation_preference">
+	   <item>Auto</item>
+	   <item>Vertical</item>
+	   <item>Horizontal</item>  
+    </string-array>
+    <string-array name="entryvalues_color_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>  
+    </string-array>
+    <string-array name="entryvalues_controlkey_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="entryvalues_end_of_line_0A_preference">
+        <item>10</item>
+        <item>0</item>
+        <item>13</item>
+        <item>3338</item>  
+    </string-array>
+    <string-array name="entryvalues_end_of_line_0D_preference">
+        <item>13</item>
+        <item>0</item>
+        <item>10</item>
+        <item>3338</item>  
+    </string-array>
+    <string-array name="entryvalues_fontsize_preference">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>  
+    </string-array>
+    <string-array name="entryvalues_screenorientation_preference">
+	  <item>0</item>
+	  <item>1</item>
+	  <item>2</item>
+  </string-array>
+    <string name="alert_dialog_no">No</string>
+    <string name="alert_dialog_no_bt">El bluetooth debe estar activado para poder usar esta aplicación.</string>
+    <string name="alert_dialog_ok">Aceptar</string>
+    <string name="alert_dialog_turn_on_bt">Esta aplicación necesita bluetooth. ¿Desea activarlo?</string>
+    <string name="alert_dialog_warning_title">Atención</string>
+    <string name="alert_dialog_yes">Si</string>
+    <string name="app_name">BlueTerm</string>
+    <string name="app_version">1.1.1</string>
+    <string name="button_scan">Buscar dispositivos</string>
+    <string name="connect">Conectarse a un dispositivo</string>
+    <string name="default_screenorientation_preference">0</string>
+    <string name="default_value_allowinsecureconnections_preference">true</string>
+    <string name="default_value_color_preference">2</string>
+    <string name="default_value_controlkey_preference">0</string>
+    <string name="default_value_end_of_line_0A_preference">10</string>
+    <string name="default_value_end_of_line_0D_preference">13</string>
+    <string name="default_value_fontsize_preference">10</string>
+    <string name="default_value_localecho_preference">false</string>
+    <string name="dialog_title_color_preference">Colores</string>
+    <string name="dialog_title_controlkey_preference">Tecla Control</string>
+    <string name="dialog_title_fontsize_preference">Tamaño de la fuente</string>
+    <string name="dialog_title_incoming_end_of_line_0A_preference">Caracter LF (0x0A) entrante</string>
+    <string name="dialog_title_incoming_end_of_line_0D_preference">Caracter CR (0x0D) entrante</string>
+    <string name="dialog_title_outgoing_end_of_line_0A_preference">Caracter LF (0x0A) saliente</string>
+    <string name="dialog_title_outgoing_end_of_line_0D_preference">Caracter CR (0x0D) saliente</string>
+    <string name="dialog_title_screenorientation_preference">Orientación de la pantalla</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="general_preferences">General</string>
+    <string name="incoming_end_of_line">Final de Linea entrante</string>
+    <string name="keyboard_preferences">Teclado</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_logging_started">Log iniciado</string>
+    <string name="menu_logging_stopped">Log detenido</string>
+    <string name="menu_start_logging">Iniciar log</string>
+    <string name="menu_stop_logging">Detener log</string>
+    <string name="none_found">No se han encontrado dispositivos</string>
+    <string name="none_paired">No hay dispositivos sincronizados</string>
+    <string name="not_connected">No está conectado al dispositivo</string>
+    <string name="outgoing_end_of_line">Final de Linea saliente</string>
+    <string name="preferences">Preferencias</string>
+    <string name="scanning">buscando dispositivos...</string>
+    <string name="select_device">Seleccione dispositivo</string>
+    <string name="special_keys">Teclas especiales</string>
+    <string name="summary_allowinsecureconnections_preference">Permitir conexiones bluetooth inseguras</string>
+    <string name="summary_color_preference">Colores de la pantalla</string>
+    <string name="summary_controlkey_preference">Seleccionar la tecla Control.</string>
+    <string name="summary_end_of_line_0A_preference"/>
+    <string name="summary_end_of_line_0D_preference"/>
+    <string name="summary_fontsize_preference">Tamaño de la fuente en puntos.</string>
+    <string name="summary_localecho_preference"/>
+    <string name="summary_screenorientation_preference"/>
+    <string name="text_preferences">Texto</string>
+    <string name="title_allowinsecureconnections_preference">Permitir conexiones inseguras</string>
+    <string name="title_color_preference">Colores</string>
+    <string name="title_connected_to">conectado: </string>
+    <string name="title_connecting">conectando...</string>
+    <string name="title_controlkey_preference">Tecla Control</string>
+    <string name="title_document_key_press">Pulse</string>
+    <string name="title_document_key_rest">y después...</string>
+    <string name="title_end_of_line_0A_preference">Caracter LF (0x0A)</string>
+    <string name="title_end_of_line_0D_preference">Caracter CR (0x0D)</string>
+    <string name="title_fontsize_preference">Tamaño de la fuente</string>
+    <string name="title_localhecho_preference">Echo local</string>
+    <string name="title_not_connected">no conectado</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="title_paired_devices">Dispositivos sincronizados</string>
+    <string name="title_screenorientation_preference">Orientación de la pantalla</string>
+    <string name="toast_connected_to">Conectado a</string>
+    <string name="toast_connection_lost">Se ha perdido la conexión</string>
+    <string name="toast_unable_to_connect">No se ha podido conectar</string>
+</resources>
