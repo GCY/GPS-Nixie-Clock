@@ -5,6 +5,7 @@
 command
 
 '1' : clock mode
+</br>
 '2' : temperature mode
 '3' : humidity mode
 '4' : flash mode
