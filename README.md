@@ -7,7 +7,13 @@ command
 '1' : clock mode
 </br>
 '2' : temperature mode
+</br>
 '3' : humidity mode
+</br>
 '4' : flash mode
+</br>
 '5' : counter mode
+</br>
 '6' : '1' + '2' + '3'
+</br>
+'s' | 'S' : set time
