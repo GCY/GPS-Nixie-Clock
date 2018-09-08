@@ -27,6 +27,9 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 </br>
 </br>
 
+[![Audi R8](http://img.youtube.com/vi/wf9-RlVoMTk/0.jpg)](https://youtu.be/wf9-RlVoMTk)
+
+</br>
 1. Pair BT of MAC and Nixie Clock.</br>
 2. Open wxNixieClock select to tools -> Connect Device -> cu.BT device driver</br>
 3. Click SyncTime button</br>
