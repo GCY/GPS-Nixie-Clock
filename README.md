@@ -27,7 +27,7 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 </br>
 </br>
 
-[![Audi R8](http://img.youtube.com/vi/wf9-RlVoMTk/0.jpg)](https://youtu.be/wf9-RlVoMTk)
+[![Audi R8](http://img.youtube.com/vi/tJzohsqhTxs/0.jpg)](https://youtu.be/tJzohsqhTxs)
 
 </br>
 1. Pair BT of MAC and Nixie Clock.</br>
