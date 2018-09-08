@@ -18,5 +18,16 @@ command
 </br>
 's' | 'S' : set time
 </br></br>
+</br>
+wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
+g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64</br>
+</br>
+</br>
+![alt text](https://github.com/GCY/Nixie-Clock/blob/master/wxNixieClock/pic.png)
+</br>
+</br>
 
-g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64
+1. Pair BT of MAC and Nixie Clock.</br>
+2. Open wxNixieClock select to tools -> Connect Device -> cu.BT device driver</br>
+3. Click SyncTime button</br>
+4. Done!</br>
