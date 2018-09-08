@@ -17,3 +17,6 @@ command
 '6' : '1' + '2' + '3'
 </br>
 's' | 'S' : set time
+</br></br>
+
+g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64
