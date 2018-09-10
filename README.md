@@ -31,7 +31,7 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 
 </br>
 1. Pair BT of MAC and Nixie Clock.</br>
-2. Open wxNixieClock select to tools -> Connect Device -> cu.BT device driver</br>
+2. Open wxNixieClock to select tools -> Connect Device -> cu.BT device driver</br>
 3. Click SyncTime button</br>
 4. Done!</br>
 </br>
