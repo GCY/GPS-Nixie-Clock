@@ -2,7 +2,24 @@
 
 ![alt text](https://github.com/GCY/Nixie-Clock/blob/master/nixie%20clock.png)
 
-## Command
+## Firmware
+### Parameter
+
+__SERIAL__ : output info to serial port.</br>
+DOT : use nixie tube dot.</br>
+__GPS__ : time sync with Neo-6M - u-blox, separator is GPGGA[7] = {'$','G','P','G','G','A',','};</br>
+<pre><code>
+#define __SERIAL__ 1
+#define DOT 1
+#define __GPS__ 1
+</code></pre>
+
+gps_update : gps sync period, unit is ms, 300000ms = 5min.</br> 
+<pre><code>
+const unsigned long gps_update = 300000;
+</code></pre>
+
+### Command
 
 case '1' : clock mode
 </br>
@@ -40,6 +57,7 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 4. Done!</br>
 </br>
 ### Dependency
+</br>
 Install wxWidgets dependency in terminal</br>
 </br>
 1. user$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </br>
