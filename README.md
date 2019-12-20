@@ -42,7 +42,7 @@ case '5' : counter mode
 </br>
 case '6' : '1' + '2' + '3'
 </br>
-'s' | 'S' : set time
+case 's' | 'S' : set time
 </br></br>
 
 ## Android time sync tool
