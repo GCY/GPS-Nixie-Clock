@@ -45,7 +45,10 @@ case '6' : '1' + '2' + '3'
 's' | 'S' : set time
 </br></br>
 
-## PC Software
+## Android tool
+
+
+## PC Software wxNixieClock
 </br>
 wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
 ### Build
