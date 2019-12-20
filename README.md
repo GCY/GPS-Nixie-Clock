@@ -19,6 +19,15 @@ gps_update : gps sync period, unit is ms, 300000ms = 5min.</br>
 const unsigned long gps_update = 300000;
 </code></pre>
 
+Type select, IN_14 == IN_16.</br> 
+<pre><code>
+enum{
+  IN_12B = 100,
+  IN_14,
+  IN_2
+};
+</code></pre>
+
 ### Command
 
 case '1' : clock mode
