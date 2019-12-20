@@ -34,11 +34,12 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 
 ### Use
 </br>
-- 1. Pair BT of MAC and Nixie Clock.</br>
-- 2. Open wxNixieClock to select tools -> Connect Device -> cu.BT device driver</br>
-- 3. Click SyncTime button</br>
-- 4. Done!</br>
+1. Pair BT of MAC and Nixie Clock.</br>
+2. Open wxNixieClock to select tools -> Connect Device -> cu.BT device driver</br>
+3. Click SyncTime button</br>
+4. Done!</br>
 </br>
+### Dependency
 Install wxWidgets dependency in terminal</br>
 </br>
 1. user$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </br>
