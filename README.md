@@ -2,19 +2,19 @@
 
 ![alt text](https://github.com/GCY/Nixie-Clock/blob/master/nixie%20clock.png)
 
-command
+## Command
 
-'1' : clock mode
+case '1' : clock mode
 </br>
-'2' : temperature mode
+case '2' : temperature mode
 </br>
-'3' : humidity mode
+case '3' : humidity mode
 </br>
-'4' : flash mode
+case '4' : flash mode
 </br>
-'5' : counter mode
+case '5' : counter mode
 </br>
-'6' : '1' + '2' + '3'
+case '6' : '1' + '2' + '3'
 </br>
 's' | 'S' : set time
 </br></br>
