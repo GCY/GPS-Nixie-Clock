@@ -7,7 +7,7 @@
 
 __SERIAL__ : output info to serial port.</br>
 DOT : use nixie tube dot.</br>
-__GPS__ : time sync with Neo-6M - u-blox, separator is GPGGA[7] = {'$','G','P','G','G','A',','};</br>
+__GPS__ : time sync with Neo-6M - u-blox chip, this function only for IN_14 and IN_16 version, and time sync separator is GPGGA[7] = {'$','G','P','G','G','A',','};</br>
 <pre><code>
 #define __SERIAL__ 1
 #define DOT 1
