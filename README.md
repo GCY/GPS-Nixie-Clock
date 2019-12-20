@@ -18,8 +18,11 @@ case '6' : '1' + '2' + '3'
 </br>
 's' | 'S' : set time
 </br></br>
+
+## PC Software
 </br>
 wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
+### Build
 g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64</br>
 </br>
 </br>
@@ -29,11 +32,12 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 
 [![Audi R8](http://img.youtube.com/vi/tJzohsqhTxs/0.jpg)](https://youtu.be/tJzohsqhTxs)
 
+### Use
 </br>
-1. Pair BT of MAC and Nixie Clock.</br>
-2. Open wxNixieClock to select tools -> Connect Device -> cu.BT device driver</br>
-3. Click SyncTime button</br>
-4. Done!</br>
+- 1. Pair BT of MAC and Nixie Clock.</br>
+- 2. Open wxNixieClock to select tools -> Connect Device -> cu.BT device driver</br>
+- 3. Click SyncTime button</br>
+- 4. Done!</br>
 </br>
 Install wxWidgets dependency in terminal</br>
 </br>
