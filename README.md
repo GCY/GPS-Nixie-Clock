@@ -45,10 +45,10 @@ case '6' : '1' + '2' + '3'
 's' | 'S' : set time
 </br></br>
 
-## Android tool
+## Android time sync tool
+Android App modified BlueTerm project. </br>
 
-
-## PC Software wxNixieClock
+## PC Software - wxNixieClock
 </br>
 wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
 ### Build
