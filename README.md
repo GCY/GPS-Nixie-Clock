@@ -1,4 +1,4 @@
-# Nixie-Clock
+# GPS-Nixie-Clock
 
 This is GPS Nixie clock,include IN12B, IN14, IN16, and IN2 version.</br>
 
