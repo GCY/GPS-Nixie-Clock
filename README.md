@@ -57,7 +57,9 @@ wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
 g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64</br>
 </br>
 </br>
+
 ![alt text](https://github.com/GCY/GPS-Nixie-Clock/blob/master/wxNixieClock/pic.png)
+
 </br>
 </br>
 
