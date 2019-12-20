@@ -1,5 +1,7 @@
 # Nixie-Clock
 
+This is GPS Nixie clock,include IN12B, IN14, IN16, and IN2 version.</br>
+
 ![alt text](https://github.com/GCY/Nixie-Clock/blob/master/nixie%20clock.png)
 
 ## Firmware
