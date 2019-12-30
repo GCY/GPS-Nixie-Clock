@@ -47,6 +47,7 @@ const int type = IN_14;
 
 const bool sync_time = false;
 const bool temperature_calibration = false;
+const bool dew_point = true;
 
 //RTC_DS1307 rtc;
 RTC_DS3231 rtc;
@@ -77,6 +78,11 @@ unsigned long sr = 0;
 
 static char mode = '6';
 
+float HDC1080DewPoint(float temperature,float humidity)
+{
+  return (243.12 * (log(humidity/100.0)+ ((17.62*temperature)/(243.12+temperature)))) / (17.62 - (log(humidity/100.0)+ ((17.62*temperature)/(243.12+temperature))));
+}
+
 void UpdateHDC1080Temperature()
 {
   static int c = 0;
@@ -89,8 +95,12 @@ void UpdateHDC1080Temperature()
   else if(c >= ma){
     temperature = temperature_t / ma;
     
+    if(dew_point){
+      temperature = HDC1080DewPoint(temperature,humidity);
+    }
+    
     if(temperature_calibration){
-      temperature -= 4.5f;
+      //temperature -= 4.5f; // Offset
     }
     
     temperature_t = 0;
