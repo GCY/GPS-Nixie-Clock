@@ -30,6 +30,11 @@ enum{
 };
 </code></pre>
 
+<pre><code>
+const bool sync_time = false; // sync time with Arduino IDE
+const bool temperature_calibration = false; // offset
+const bool dew_point = true;  // calculate dew point
+</code></pre>
 ### Command
 
 case '1' : clock mode
