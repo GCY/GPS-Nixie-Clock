@@ -58,7 +58,9 @@ Android App modified BlueTerm project. </br>
 ## PC Software - wxNixieClock
 </br>
 wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
+
 ### Build
+
 g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64</br>
 </br>
 </br>
