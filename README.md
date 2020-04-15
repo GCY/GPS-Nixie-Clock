@@ -79,7 +79,9 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 3. Click SyncTime button</br>
 4. Done!</br>
 </br>
+
 ### Dependency
+
 </br>
 Install wxWidgets dependency in terminal</br>
 </br>
