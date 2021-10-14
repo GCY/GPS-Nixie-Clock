@@ -30,6 +30,11 @@ enum{
 };
 </code></pre>
 
+<pre><code>
+const bool sync_time = false; // sync time with Arduino IDE
+const bool temperature_calibration = false; // offset
+const bool dew_point = true;  // calculate dew point
+</code></pre>
 ### Command
 
 case '1' : clock mode
@@ -53,7 +58,9 @@ Android App modified BlueTerm project. </br>
 ## PC Software - wxNixieClock
 </br>
 wxNixieClock is time sync tool for Nixie Clock project.(Only MAC-OS-X)</br>
+
 ### Build
+
 g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \`wx-config --cxxflags --libs\` -m64</br>
 </br>
 </br>
@@ -72,7 +79,9 @@ g++ -o2 -o wxnixieclock.app wxnixieclock.cpp serialport.cpp connectargsdlg.cpp \
 3. Click SyncTime button</br>
 4. Done!</br>
 </br>
+
 ### Dependency
+
 </br>
 Install wxWidgets dependency in terminal</br>
 </br>
